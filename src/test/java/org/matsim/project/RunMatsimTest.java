@@ -51,7 +51,7 @@ public class RunMatsimTest{
 				  "--config:controler.lastIteration=1",
 				  "--config:controler.writeEventsInterval=1"
 			} ;
-			Assert.fail();
+
 			RunMatsim.main( args ) ;
 		} catch ( Exception ee ) {
 			Logger.getLogger(this.getClass()).fatal("there was an exception: \n" + ee ) ;
